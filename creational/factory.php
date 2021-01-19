@@ -13,9 +13,6 @@ interface Transport {
   public function delivery();
 }
 
-
-
-
 class TruckTransport implements Transport{
   public function readied(){
     echo "Package being readied to be transported by truck\n";
