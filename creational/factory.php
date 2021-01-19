@@ -2,7 +2,7 @@
 
 /*
  * Factory is a creational design pattern  where objects have to be created
- * dynamically whose types are know only at the run-time.
+ * dynamically whose types are known only at the run-time.
  * The below example demonstrates the Factory desgin pattern using a the real world
  * Courier Service business model.
  */
