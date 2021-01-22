@@ -16,7 +16,12 @@
    {
      static  $instance = null;
      if(null == $instance) {
-       $instance = new static();
+       /*
+        * static keyword allows us to late binding to refer to whatever class in the hierarchy you called
+        * the method on. So if you want to have a single instance of some child class, you would use 
+        * always use 'static' instead of 'self'
+        */
+       $instance = new static(); // Overcome the temptation to use self() here.
      }
      else {
        echo "Reusing the old instance\n";
