@@ -48,8 +48,8 @@ shareInWhatsapp($share); // Sharing the message.
 
 /*
  * What is the advantages of this?
- * Imagine at some point Whatsapp CEO feels that the function name is wShare is 
- * didn't convey a meaning and change its name to watsupShare,
- * there is only one place to change that in our entire code.
+ * Imagine at some point Whatsapp CEO feels that the function name 'wShare'
+ * didn't convey a meaning and change its name to 'watsupShare', 
+ * there is only one place to change that in our entire code, ie line 32.
  */ 
 
